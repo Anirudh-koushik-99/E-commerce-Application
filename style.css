@@ -648,6 +648,8 @@ footer .follow i:hover, footer a:hover{
     display: flex;
     align-items: center;
     width: 100%;
+    position: relative;
+    padding-bottom: 90px;
 }
 
 #blog .blog-img{
@@ -693,13 +695,14 @@ footer .follow i:hover, footer a:hover{
     transition: 0.3s;
 }
 
-#blog .blog-details h1{
+#blog .blog-box h1{
     position: absolute;
     top: -40px;
     left: 0;
     font-size: 70px;
     font-weight: 700;
     color: #c9cbce;
+    z-index: -1;
 }
 
 /* MEDIA QUERY */
@@ -868,6 +871,28 @@ footer .follow i:hover, footer a:hover{
     #prodetails .single-pro-details{
         width: 100%;
     }
+
+    /* BLOG PAGE */
+
+    #blog {
+        padding: 100px 20px 0 20px;
+    }
+
+    #blog .blog-box {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #blog .blog-img {
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+
+    #blog .blog-details{
+        width: 100%;
+    }    
 }
 
 
