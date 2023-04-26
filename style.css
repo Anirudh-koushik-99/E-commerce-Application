@@ -731,9 +731,12 @@ footer .follow i:hover, footer a:hover{
     text-align: justify;
 }
 
-
 #about-app{
     text-align: center;
+}
+
+#about-app h1 a{
+    color: #606063;
 }
 
 #about-app .video{
@@ -746,6 +749,8 @@ footer .follow i:hover, footer a:hover{
     height: 100%;
     border-radius: 20px;
 }
+
+
 /* CONTACT PAGE */
 
 /* CART PAGE */
