@@ -754,6 +754,17 @@ footer .follow i:hover, footer a:hover{
 
 /* CONTACT PAGE */
 
+#contact-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#contact-details .details{
+    width: 40%;
+}
+
+
 /* CART PAGE */
 
 /* MEDIA QUERY */
@@ -965,7 +976,6 @@ footer .follow i:hover, footer a:hover{
         height: 100%;
         margin: 30px auto 0 auto;
     }
-
 }
 
 
